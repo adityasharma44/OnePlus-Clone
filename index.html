@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OnePlus Clone</title>
+    <script src="https://kit.fontawesome.com/34a96dff07.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="h-[50px] w-full flex justify-between items-center px-4">
+        <div class="hamburger inline-block lg:hidden">
+            <div class="h-0.5 w-5 bg-black my-1"></div>
+            <div class="h-0.5 w-5 bg-black my-1"></div>
+            <div class="h-0.5 w-5 bg-black my-1"></div>
+        </div>
+        <div class="logo w-[102px] h-[50px] flex items-center lg:w-auto" style="margin-left: 50px;">
+            <img class="w-[101px] h-[28px]" src="Media/Logo/logo.png" alt="">
+
+            <div class="hidden lg:block" style="margin-left: 20px;">
+                <ul class="flex items-center">
+                    <li class="mx-3 text-sm">Phone</li>
+                    <li class="mx-3 text-sm">Tablet</li>
+                    <li class="mx-3 text-sm">Audio</li>
+                    <li class="mx-3 text-sm">TV & Display</li>
+                    <li class="mx-3 text-sm">Accessories</li>
+                    <li class="mx-3 text-sm">Offers</li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="flex items-center mr-0 lg:mr-[60px]">
+            <div class="search">
+                <i class="fa-solid fa-magnifying-glass text-[15px] px-4"></i>
+            </div>
+            <div class="Cart lg:px-3">
+                <i class="fa-solid fa-cart-shopping text-[18px]"></i>
+            </div>
+            <div class="account px-3 hidden lg:inline-block">
+                <i class="fa-regular fa-user text-[18px]"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Banner Section -->
+
+    <section class="banner lg:px-5 lg:py-8 flex flex-col justify-between">
+        <div>
+            <p class="text-white text-[14px] lg:text-[16px] font-medium">10th Anniversary Celebration</p>
+            <h2 class="text-white text-[32px] lg:text-[36px] font-medium">Never Settle</h2>
+        </div>
+        <div>
+            <p class="text-[13px] lg:text-[16px] font-medium w-80 lg:text-black text-white">Discover exciting events and get chances to win big!</p>
+            <button class=" text-black bg-white lg:text-white lg:bg-black border-none px-4 lg:px-10 py-2 text-[11px] font-medium lg:text-[13px] mt-3">Join Now</button>
+        </div>
+    </section>
+
+    <!-- Section 2 -->
+
+    <section class="banner lg:px-5 lg:py-8 flex flex-col justify-between mt-2" id="sec2">
+        <div>
+            <p class="text-white text-[14px] lg:text-[16px] font-medium">Smooth beyond belief</p>
+            <h2 class="text-white text-[32px] lg:text-[36px] font-medium">OnePlus 12</h2>
+        </div>
+        <div>
+            <p class="text-[13px] lg:text-[16px] font-medium w-80 lg:text-white text-white">Click "Subscribe" now and stand a chance to win a free OnePlus 12 and OnePlus 12R!<br>Ticket Sales start on 3rd January</p>
+            <button class=" text-black bg-white lg:text-black lg:bg-white border-none px-4 lg:px-10 py-2 text-[11px] font-medium lg:text-[13px] mt-3">Subscribe Now</button>
+        </div>
+    </section>
+
+    <!-- Section 3 -->
+
+    <section class="banner lg:px-5 lg:py-8 flex flex-col justify-between mt-2" id="sec3">
+        <div>
+            <p class="text-black text-[14px] lg:text-[16px] font-medium">Open for Everything</p>
+            <h2 class="text-black text-[32px] lg:text-[36px] font-medium">OnePlus Open</h2>
+        </div>
+        <div>
+            <p class="text-[13px] lg:text-[17px] font-medium w-80 lg:text-black text-black">At ₹139,999</p>
+            <button class=" text-white bg-black lg:text-white lg:bg-black border-none px-4 lg:px-10 py-2 text-[11px] font-medium lg:text-[13px] mt-3">Buy Now</button>
+        </div>
+    </section>
+
+    <section class="lg:flex lg:justify-between lg:items-center lg:px-5 lg:py-8">
+        <div class="h-[400px] lg:w-[598px] w-[358px] bg-slate-300 px-4 pt-8 lg:p-5 mx-auto mt-6 mb-2" style="background-image: url(Media/Images/2_Nord3_in-PC.jpg.thumb.png); background-size: cover; background-position: center;">
+            <h2 class="text-[24px] lg:text-[34px] font-medium mb-0.5">OnePlus Nord CE3<sup>5G</sup></h2>
+            <p class="font-normal text-[14px]">From Rs24,999</p>
+        </div>
+        <div class="h-[400px] lg:w-[598px] w-[358px] bg-slate-300 lg:p-5 px-4 pt-8 mx-auto lg:mt-5" style="background-image: url(Media/Images/2_Pad_EU-PC.jpg.thumb.png); background-size: cover; background-position: center;">
+            <h2 class="text-[24px] lg:text-[34px] font-medium mb-0.5">OnePlus Pad</h2>
+            <p class="font-normal text-[14px]">From Rs35,499</p>
+        </div>
+    </section>
+
+    <section class="lg:p-16 pt-12 px-4 pb-8">
+        <h2 class="lg:text-[20px] text-[16px] mb-2 font-normal">This Week's Hot Picks</h2>
+        <hr>
+        <!-- <ul class="flex mt-8 mb-8">
+            <li class="lg:text-[20px] text-[16px] mr-8 font-normal">Highlights</li>
+            <li class="lg:text-[20px] text-[16px] mr-8 font-normal">Phones</li>
+            <li class="lg:text-[20px] text-[16px] mr-8 font-normal">Tablet</li>
+            <li class="lg:text-[20px] text-[16px] mr-8 font-normal">Audio</li>
+            <li class="lg:text-[20px] text-[16px] mr-8 font-normal">Accessories</li>
+            <li class="lg:text-[20px] text-[16px] mr-8 font-normal">Wearables</li>
+            <li class="lg:text-[20px] text-[16px] mr-8 font-normal">TV & Display</li>
+        </ul> -->
+        <div class="flex justify-between items-center pb-8 lg:pb-14">
+            <div>
+                <img src="Media/Images/1-m00-51-8b-cpgm7msyk4oagsgzaav1tw1typs077_420_420.png" style="background-color: #f8f8f8;" class="lg:h-[269px] lg:w-[269px]" alt="">
+                <h3 class="text-[24px] mt-5 font-medium">OnePlus Nord 3 5G</h3>
+                <p class="text-[16px] mt-2">From Rs33,999</p>
+            </div>
+
+            <div class="hidden lg:inline-block">
+                <img src="Media/Images/1-m00-4e-13-cpgm7wpjxnkafjigaanmzr5p60g956_420_420.png" style="background-color: #f8f8f8;" class="lg:h-[269px] lg:w-[269px]" alt="">
+                <h3 class="text-[24px] mt-5 font-medium">OnePlus 11 5G</h3>
+                <p class="text-[16px] mt-2">From Rs56,999</p>
+            </div>
+
+            <div class="hidden lg:inline-block">
+                <img src="Media/Images/1-m00-52-14-cpgm7wusp8yajxynaad-z_fkgnu765_420_420.png" style="background-color: #f8f8f8;" class="lg:h-[269px] lg:w-[269px]" alt="">
+                <h3 class="text-[24px] mt-5 font-medium">OnePlus Pad Go</h3>
+                <p class="text-[16px] mt-2">From Rs19,999</p>
+            </div>
+
+            <div class="hidden lg:inline-block">
+                <img src="Media/Images/1-m00-4c-95-cpgm7wo_4kmacc2-aapyo-kovpy338_420_420.png" style="background-color: #f8f8f8;" class="lg:h-[269px] lg:w-[269px]" alt="">
+                <h3 class="text-[24px] mt-5 font-medium">OnePlus Buds Pro 2</h3>
+                <p class="text-[16px] mt-2">From Rs11,999</p>
+            </div>
+        </div>
+        <p class="text-center">View all products</p>
+    </section>
+
+    <section class="lg:px-16 w-full px-3 pt-10 lg:w-[100vw] w-[332px] pb-12 bg-black">
+        <h2 class="lg:text-5xl text-[28px] line leading-9 lg:leading-[60px] text-white mb-9">A new platform that strives to 'Empower the quality of your digital life'. <span style="color: red;">Discover more</span></h2>
+
+        <div class="flex flex-col lg:flex-row justify-between">
+            <img class="lg:w-[667px] w-[320px] lg:h-[450px] h-[195px] lg:mr-20 order-2 lg:order-1" style="object-fit: cover;"  src="Media/Images/key1.png" alt="">
+            <div class="flex justify-between flex-col order-1 lg:order-2 mb-2">
+                <div>
+                    <p class="text-white text-xl text-[18px]">Rewrite the Rules</p>
+                    <h3 class="text-white lg:text-5xl text-[34px] mt-3">Keyboard 81 Pro</h3>
+                </div>
+                <div>
+                    <p class="text-white text-[14px] mb-5">Power by OnePlus Design | Co-Created Switches | The First Bouncy but Durable Keycap</p>
+                    <a href="" class="text-white text-[14px]"><ins>Buy Now</ins></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex flex-col lg:flex-row justify-between my-14">
+            
+            <div class="flex justify-between flex-col mb-3">
+                <div>
+                    <p class="text-white text-xl">Ready Before You Were</p>
+                    <h3 class="text-white text-5xl mt-3">Built for 5G</h3>
+                </div>
+                <div>
+                    <p class="text-white text-[14px] mb-5">#OnePlus5GExperience</p>
+                    <a href="" class="text-white text-[14px]"><ins>Learn More</ins></a>
+                </div>
+            </div>
+
+            <img class="lg:w-[667px] w-[320px] lg:h-[450px] h-[195px]" src="Media/Images/5g.png"  style="object-fit: cover;"  alt="">
+        </div>
+
+        <div class="flex flex-col lg:flex-row justify-between">
+            <img class="lg:w-[667px] w-[320px] lg:h-[450px] order-2 lg:order-1 h-[195px] lg:mr-20" src="Media/Images/allsec.png" style="object-fit: cover;" alt="">
+            <div class="flex justify-between flex-col order-1 lg:order-2 mb-6">
+                <div class="mb-3">
+                    <h3 class="text-white text-5xl mt-3">OnePlus Gear</h3>
+                </div>
+                <div>
+                    <p class="text-white text-[14px] mb-5">Do more with OnePlus, the Never Settle way With exclusive OnePlus Gear</p>
+                    <button class="bg-white text-black h-[40px] w-[180px] rounded-sm">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="lg:px-16 px-3 pt-10 pb-12 bg-white">
+        <h2 class="text-5xl text-[28px] font-medium leading-8 lg:leading-[60px] text-black mb-9">Relentless innovation defines who we are.</h2>
+        <div class="flex justify-between my-14 flex-col lg:flex-row">
+
+            <div class="flex justify-between flex-col mb-4">
+                <div>
+                    <p class="text-black text-xl">OxygenOS 14</p>
+                    <h3 class="text-black font-medium lg:text-5xl text-[36px] mt-3">Evolved to Exceed</h3>
+                </div>
+                <div>
+                    <p class="text-black text-[14px] mb-5">The signature OxygenOS experience has evolved. Driven by the next-generation Trinity Engine, innovative features and refreshed design elements, discover the pinnacle of fast and smooth.</p>
+                    <a href="" class="text-black text-[14px]"><ins>Learn More</ins></a>
+                </div>
+            </div>
+
+            <img class="lg:w-[667px] w-[320px] lg:h-[450px] h-[195px]" src="Media/Images/oos14-pc.jpg.thumb.png"  style="object-fit: cover;"  alt="">
+        </div>
+
+        <div class="flex flex-col lg:flex-row justify-between">
+            <img class="lg:w-[667px] lg:h-[450px] w-[320px] order-2 lg:order-1 h-[195px] mr-20" src="Media/Images/bigcard-PC.jpg.thumb.png" style="object-fit: cover;" alt="">
+            <div class="flex justify-between flex-col order-1 lg:order-2">
+                <div>
+                    <p class="text-black text-xl">Capture Every Horizon</p>
+                    <h3 class="text-black text-5xl mt-3 font-medium">2023 OnePlus Photography Awards Winners</h3>
+                </div>
+                <div>
+                    <p class="text-black text-[14px] mb-5">The 2023 OnePlus Photography Awards is dedicated to honoring everyone to use their phones to create their own works, to capture wonderful moments, and to tell the stories behind the lens.</p>
+                    <a href="" class="text-black text-[14px]"><ins>Learn More</ins></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-black">
+        <div class="flex justify-between flex-col lg:flex-row items-start p-16 foot">
+            <div>
+                <h3 style="font-size: 17px; padding: 20px 0px; font-weight: 600;color: white;">Phones</h3>
+                <li class="hidden lg:block">OnePlus Open</li>
+                <li class="hidden lg:block">OnePlus 11 5G</li>
+                <li class="hidden lg:block">OnePlus 11R 5G</li>
+                <li class="hidden lg:block">OnePlus Nord 3 5G</li>
+                <li class="hidden lg:block">OnePlus Nord CE3 5G</li>
+                <li class="hidden lg:block">OnePlus Nord CE 3 Lite 5G</li>
+            </div>
+            <div>
+                <h3 style="font-size: 17px; padding: 20px 0px; font-weight: 600;color: white;">Store</h3>
+                <li class="hidden lg:block">Tablet</li>
+                <li class="hidden lg:block">TV & Display</li>
+                <li class="hidden lg:block">Audio</li>
+                <li class="hidden lg:block">Wearables</li>
+                <li class="hidden lg:block">Cases & Protection</li>
+                <li class="hidden lg:block">Power & Cables</li>
+                <li class="hidden lg:block">Bundles</li>
+                <li class="hidden lg:block">Gear</li>
+            </div>
+            <div>
+                <h3 style="font-size: 17px; padding: 20px 0px; font-weight: 600;color: white;">Support</h3>
+                <li class="hidden lg:block">Protection Plan</li>
+                <li class="hidden lg:block">Shopping FAQs</li>
+                <li class="hidden lg:block">User Manuals</li>
+                <li class="hidden lg:block">Service Centers</li>
+                <li class="hidden lg:block">Affiliate Program</li>
+                <li class="hidden lg:block">Repair Service</li>
+                <li class="hidden lg:block">Repair Pricing</li>
+                <li class="hidden lg:block">TV Spare Part Price</li>
+                <li class="hidden lg:block">Software Update</li>
+            </div>
+            <div>
+                <h3 style="font-size: 17px; padding: 20px 0px; font-weight: 600;color: white;">Explore</h3>
+                <li class="hidden lg:block">About OnePlus</li>
+                <li class="hidden lg:block">Community</li>
+                <li class="hidden lg:block">Find a store</li>
+                <li class="hidden lg:block">OnePlus Store app</li>
+                <li class="hidden lg:block">OxygenOS</li>
+                <li class="hidden lg:block">Press</li>
+                <li class="hidden lg:block">Careers</li>
+            </div>
+            <div>
+                <h3 style="font-size: 17px; padding: 20px 0px; font-weight: 600;color: white;">Programs</h3>
+                <li class="hidden lg:block">Exchange Program</li>
+                <li class="hidden lg:block">Red Cable Club</li>
+                <li class="hidden lg:block">OnePlus Student Program</li>
+            </div>
+        </div>
+
+        <div class="flex justify-between items-center pl-7 pr-14 pb-4">
+            <div>
+                <ul class="flex items-center foot hidden lg:flex lg:flex-row">
+                    <li class="text-xs ml-6 flex items-center"><i class="mr-2 fa-regular fa-credit-card text-base"></i><p class="text-xs">Credit/Debit Card</p></li>
+                    <li class="text-xs ml-6 flex items-center"><i class="mr-2 fa-solid fa-building-columns text-base"></i><p class="text-xs">Netbanking</p></li>
+                    <li class="text-xs ml-6 flex items-center"><i class="mr-2 fa-solid fa-circle-stop text-base"></i><p class="text-xs">EMI</p></li>
+                    <li class="text-xs ml-6 flex items-center"><i class="mr-2 fa-solid fa-wallet text-base"></i><p class="text-xs">Wallet</p></li>
+                </ul>
+            </div>
+            <div class="flex lg:justify-between flex-col lg:flex-row lg:items-center">
+                <ul class="flex items-center foot mr-8 order-2 lg:order-1">
+                    <li class="text-xs ml-6 flex items-center"><i class="text-lg fa-brands fa-facebook"></i></li>
+                    <li class="text-xs ml-6 flex items-center"><i class="text-lg fa-brands fa-square-x-twitter"></i></li>
+                    <li class="text-xs ml-6 flex items-center"><i class="text-lg fa-brands fa-instagram"></i></li>
+                </ul>
+                <p style="font-size: 16px; padding: 20px 0px; font-weight: 600;color: white;" class="order-1 lg:order-2">Get Support From OnePlus</p>
+            </div>
+        </div>
+
+        <hr class="mx-12 h-1" style="color: #828282;">
+
+        <div class="py-5 pr-12 flex flex-col hidden lg:flex-row justify-between">
+            <ul class="flex items-center foot px-12">
+                <li class="mr-5" style="font-size: 13px">Privacy Policy</li>
+                <li class="mr-5" style="font-size: 13px">User Agreement</li>
+                <li class="mr-5" style="font-size: 13px">Terms of Sales</li>
+                <li class="mr-5" style="font-size: 13px">E-waste Management</li>
+                <li class="mr-5" style="font-size: 13px">Security Feedback</li>
+            </ul>
+
+            <p style="color: #828282;">India(English)</p>
+        </div>
+    </footer>
+</body>
+</html>

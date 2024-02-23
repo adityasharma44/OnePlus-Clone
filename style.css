@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.banner{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(Media/Images/banner.png); 
+    height: 450px;
+}
+
+#sec2{
+    background-image: url(Media/Images/sec-2.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position: center;
+    height: 450px;
+}
+
+#sec3{
+    background-image: url(Media/Images/sec3.png);
+    height: 450px;
+    background-size: 80% 450px;
+    background-color: #e6e8ec;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-width:650px) {
+    .banner{
+        background-image: url(Media/Images/mobile\ banner.png);
+        height: 470px;
+        background-position:center;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 16px 12px;
+        background-size: cover;
+    }
+
+    #sec2{
+        background-image: url(Media/Images/sec-2\ mobile.png);
+        height: 470px;
+        background-position-x: 0px;
+        background-position-y: 75px;
+        box-sizing: border-box;
+        padding: 16px 12px;
+        width: 100%;
+        background-size:90% 280px;
+    }
+
+    #sec3{
+        background-image: url(Media/Images/sec3-mobile.png);
+        height: 470px;
+        background-position-x: 0px;
+        background-position-y: 75px;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 16px 12px;
+        background-size: 90% 280px;
+        background-color: #e4e8eb;
+    }
+
+    /* body{
+        width: 100% !important;
+    } */
+}
+
+
+.foot li{
+    list-style-type: none;
+    font-size: 14px;
+    padding: 8px 0px;
+    color: #828282;
+}
+
+hr{
+    color: white;
+}
+
+section{
+    width: 100vw;
+}
